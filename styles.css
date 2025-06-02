@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 1rem;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -93,23 +93,33 @@ nav ul li a {
 }
 
 .product-card {
-    background: white;
+    background: rgb(220, 220, 220);
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-    width: 100%;
-    min-height: 200px;
+    padding: 1rem 1rem;
+    width: 25rem;
+    height: 40rem;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
 }
 
 .product-image {
-    height: 200px;
-    width: 200px;
-    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.product-image img {
+    max-height: 100%;
+    width: 100%;
+    border-radius: 6px;
 }
 
 .product-info {
-    padding: 1.5 rem;
+    padding: 1 rem;
 }
 
 .product-info h3 {
