@@ -173,8 +173,8 @@ footer {
 }
 
 .box {
-    max-width: 25rem;
+    width: 25rem;
     height: 40rem;
-    background: linear-gradient(135deg, #6e45e2, #88d3ce);
+    background: linear-gradient( #cccccc, #272727);
     border-radius: 8px;
 }
