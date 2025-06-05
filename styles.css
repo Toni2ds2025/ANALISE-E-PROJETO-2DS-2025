@@ -22,9 +22,10 @@ header {
 
 nav {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     background-color: gray;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -176,5 +177,33 @@ footer {
     width: 25rem;
     height: 40rem;
     background: linear-gradient( #cccccc, #272727);
-    border-radius: 8px;
+    border-radius: 4px;
+    justify-content: center;
+}
+
+.login-btn {
+    background: transparent;
+    border: 1px solid white;
+    color: white
+}
+
+@media (max-width: 768px){
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        margin-top: 1rem;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul li {
+        text-align: center;
+        padding: 0.5;
+    }
+
+    .products {
+        grid-template-columns: 1fr;
+    }
 }
