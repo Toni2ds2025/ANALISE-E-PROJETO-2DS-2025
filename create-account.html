@@ -6,16 +6,15 @@
 
     <link rel="stylesheet" href="./styles.css">
 
-    <title>Tela de cadastro de constas</title>
+    <title>Tela de cadastro de contas</title>
 </head>
 <body>
     <header class="cabecalho">
-        <h1 class="logo">Sorveteria Miku Miku</h1>
+        <h1><a href="index.html" class="logo">Sorveteria Miku Miku</a></h1>
         <p>Sua Miku Cremosa Entregue em Casa!!!</p>
         
     </header>
-
-     <nav class="navegacao">
+    <nav class="navegacao">
         <div>
             <p>Sekai Entre Mundos</p>
         </div>
@@ -23,28 +22,62 @@
             <li>
                 <a href="index.html" class="btn2">Início</a>
             </li>
+        </ul>
+        <ul>
             <li>
-                <a href="index.html#catalogo" class="btn2">Catálogo</a>
+                <a href="#catalogo" class="btn2">Catálogo</a>
             </li>
+        </ul>
+        <ul>
             <li>
                 <a href="#" class="btn2">Carrinho</a>
             </li>
+        </ul>
+        <ul>
             <li>
                 <a href="#" class="btn2">Minha Conta</a>
             </li>
         </ul>
         <div> 
-            <a href="#" class="btn1">Entrar</a>
-            <a href="create-account.html" class="btn1">Cadastrar</a>
+            <a href="create-account.html" class="btn1">Entrar / Cadastrar</a>
         </div>
     </nav>
 
     <div style="justify-content: center; display: flex;">
         <div class="box">
-            <div style="justify-content: center; color: white;">
-                <input type="text" style="width: 90%; padding: 15px; border-radius: 4px;">
+            <div>
+                <p>E-mail</p>
+                <input type="text" class="input-texto">
+                <p>Nome</p>
+                <input type="text" class="input-texto">
+                <p>Senha</p>
+                <input type="text" class="input-texto">
+                <p>Confirmar senha</p>
+                <input type="text" class="input-texto">
+            </div>
+            <div>
+                <a href="index.html" class="btn2">Criar Conta</a>
+            </div>
+            <div>
+                Já tem uma conta? Faça <a href="#" class="login.btn">login</a>!
             </div>
         </div>
     </div>
+
+    <div>
+        <section id="about" style="margin-top: 3rem;">
+            <h2>Sobre Nós</h2>
+            <p>A Sorveteria Miku Miku está no mercado desde 1939, oferecendo os melhores sorvetes artesanais da região. Nossos produtos são feitos com ingredientes 100% naturais e selecionados, sem conservantes ou corantes artificiais.</p>
+            <p>Agora, para sua comodidade, estamos lançando nosso sistema de pedidos online, onde você pode montar seu sorvete do seu jeito e receber em casa ou retirar na loja.</p>
+        </section>
+    </div>
+
+    <footer id="contact">
+        <h3>Contato</h3>
+        <p>Rua dos Sorvetes, 123 - Centro</p>
+        <p>Telefone: (11) 1234-5678</p>
+        <p>Email: mikumiku@email.com.br</p>
+        <p>Horário de funcionamento: Seg a Sáb - 10h às 22h</p>
+    </footer>
 </body>
 </html>
