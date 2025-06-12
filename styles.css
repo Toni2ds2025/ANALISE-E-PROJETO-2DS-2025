@@ -190,6 +190,12 @@ footer {
     color: white
 }
 
+.input-texto {
+    width: 20rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+
 @media (max-width: 768px){
     nav {
         flex-direction: column;
